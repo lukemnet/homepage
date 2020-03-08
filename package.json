@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lwojcik/homepage.git"
+    "url": "git+https://github.com/lukemnet/homepage.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lwojcik/homepage/issues"
+    "url": "https://github.com/lukemnet/homepage/issues"
   },
   "keywords": [
     "łukasz wójcik",

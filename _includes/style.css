@@ -16,7 +16,7 @@ a {
   text-decoration: none;
   display: inline-block;
   padding: 5px 10px;
-  margin: 0 5px;
+  margin: 5px;
   font-weight: bold;
   border: 2px solid #0366d6;
   transition:background .05s,color .05s
