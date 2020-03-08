@@ -20,6 +20,7 @@
     "homepage"
   ],
   "scripts": {
+    "start": "npm run dev",
     "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
@@ -27,6 +28,7 @@
     "@11ty/eleventy": "0.10.0"
   },
   "dependencies": {
-    "clean-css": "4.2.3"
+    "clean-css": "4.2.3",
+    "html-minifier": "4.0.0"
   }
 }
