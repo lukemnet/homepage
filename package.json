@@ -1,6 +1,7 @@
 {
   "name": "@lukemnet/homepage",
   "description": "My company homepage",
+  "private": true,
   "version": "1.0.0",
   "homepage": "https://www.lukem.net",
   "author": {
