@@ -4,6 +4,7 @@
 https://lukem.net/* https://www.lukem.net/:splat 301!
 https://lukem.eu/* https://www.lukem.net/:splat 301!
 https://www.lukem.eu/* https://www.lukem.net/:splat 301!
+https://vps.lukem.net/* https://www.lukem.net/ 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://lukemnet.netlify.app/* https://www.lukem.net/:splat 301!
