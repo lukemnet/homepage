@@ -33,7 +33,7 @@
   "dependencies": {
     "clean-css": "4.2.3",
     "html-minifier": "4.0.0",
-    "snyk": "^1.392.1"
+    "snyk": "^1.393.0"
   },
   "snyk": true
 }
