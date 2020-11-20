@@ -1,0 +1,66 @@
+body > footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #888;
+  max-height: 72px;
+
+  .column:first-child a {
+    color: #888;
+    border-bottom: 1px dotted #888;
+
+    &:hover,
+    &:focus {
+      border-bottom-style: solid;
+    }
+  }
+
+  .soc {
+    text-align: right;
+
+    a {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      padding: .5rem;
+      margin: 0 .25rem;
+
+      svg {
+        fill: #bbb;
+        transition: fill .2s ease-out;
+      }
+
+      &.li:hover svg,
+      &.li:focus svg {
+        fill: #0077B5;
+      }
+
+      &.gh:hover svg,
+      &.gh:focus svg {
+        fill: #181717;
+      }
+
+      &.tt:hover svg,
+      &.tt:focus svg {
+        fill: #0077B5;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  body > footer {
+    max-height: 115px;
+
+    .soc {
+    margin-top: 1rem;
+    text-align: left;
+    
+
+      a {
+        width: 36px;
+        height: 36px;
+        margin: 0 .5rem;
+      }
+    }
+  }
+}

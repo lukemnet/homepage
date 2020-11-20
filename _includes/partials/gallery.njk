@@ -1,0 +1,16 @@
+<div class="gallery">
+  <div class="preview">
+  {% for i in range (0, imagecount) %}
+    <img class="{% if i === 0 %}visible{% endif %}" src="/images/work/{{ slug }}/{{ i }}.jpg" alt="">
+  {% endfor %}
+  </ul>
+  </div>
+
+{% if imagecount > 1 %}
+  <div class="dots">
+  {% for i in range (1, imagecount+1) %}
+    <span tabindex="0" class="{% if i === 1 %}active{% endif %}">{{ i }}</span>
+  {% endfor %}
+  </div>
+{% endif %}
+</div>

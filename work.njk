@@ -1,0 +1,33 @@
+---
+layout: page
+title: Our Work
+slug: work
+permalink: /work/
+---
+
+<div class="row">
+  <div class="column">
+    <div class="row">
+      <div class="column">
+        <p>Selection of things we are proud of.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column slideInFromLeft">
+        <ul class="work">
+        {%- for item in collections.work|sortByOrder -%}
+          <li>
+            <a href="{{ item.data.permalink }}">
+              <img src="/images/work/{{ item.data.slug }}/logo.jpg" alt="" />
+              <span>{{ item.data.title }}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="column column-33 slideInFromRight">
+    <img src="/images/laptop.jpg" alt="" />
+  </div>
+</div>

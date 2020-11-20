@@ -1,0 +1,39 @@
+---
+layout: page
+type: subpage
+---
+
+<div class="row">
+{% if imagecount %}
+  <div class="column slideInFromLeft">
+    {% include "partials/gallery.njk" %}
+  </div>
+{% endif %}
+  <div class="column {% if imagecount %}column-50{% endif %} slideInFromRight">
+    {{ content|safe }}
+    {% if viewUrl %}
+    <p class="viewBtn"><a href="{{ viewUrl}}" class="btn">View the project</a></p>
+    {% endif %}
+    {% if services %}
+    <div class="service_list">
+      <h3>Services</h3>
+      <ul>
+      {% for item in services %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if tech %}
+    <div class="tech_list">
+      <h3>Technologies</h3>
+      <ul>
+      {% for item in tech %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% include "partials/scripts/work.njk" %}

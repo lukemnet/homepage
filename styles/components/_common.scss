@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Staatliches';
+  src: url('/fonts/Staatliches-Regular.woff2') format('woff2'),
+      url('/fonts/Staatliches-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Staatliches', "Arial Narrow", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #202124;
+
+  u {
+    color: #005181;
+  }
+
+  a {
+    font-weight: normal;
+  }
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.content {
+  padding-top: 1rem;
+  margin: 0 auto;
+
+  a {
+    color: #005181;
+    font-weight: 500;
+    border-bottom: 2px dotted #005181;
+
+    &:hover,
+    &:focus {
+      color: #005181;
+      border-bottom-style: solid;
+    }
+  }
+
+  a.btn {
+    padding: 0.75rem 1rem;
+    border: 2px solid #005181;
+    transition: all .2s;
+
+    &:hover,
+    &:focus {
+      background: #005181;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}

@@ -31,8 +31,10 @@ Icon
 
 ## Windows
 Thumbs.db
-ehthumbs.db
+Thumbs.db:encryptable
+thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
 package-lock.json
+
