@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Nokia Cellphone FC';
+    src: url('/fonts/NokiaCellphoneFC-Small.woff2') format('woff2'),
+        url('/fonts/NokiaCellphoneFC-Small.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+#gameArea {
+    padding: 0px;
+    background-color: #000;
+    height: 100vh !important;
+    overflow: hidden;
+    user-select: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.snake-panel-component,
+.snake-dialog,
+.snake-dialog button {
+    font-family: 'Nokia Cellphone FC', 'Courier New', Courier, monospace;
+}
+
+.snake-panel-component {
+    position: absolute;
+    font-size: 18px;
+    color: #7ed686;
+    background-color: #000;
+    padding: 2px 0 0;
+    left: 20px;
+    width: 240px;
+    z-index: 1000;
+}
+
+.snake-snakebody-block,
+.snake-food-block {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+.snake-snakebody-alive,
+.snake-snakebody-dead {
+    background: url('/images/snake/block.png') no-repeat;
+}
+
+.snake-food-block {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.snake-playing-field {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background: #7ed686;
+}
+
+.snake-game-container {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snake-dialog {
+    font-size: 14px;
+    padding: 16px 40px;
+    background-color: #000000;
+    color: #7ed686;
+    text-align: center;
+    display: block;
+    user-select: none;
+
+    button {
+        background: #000;
+        border: 2px solid #7ed686;
+        color: #7ed686;
+        font-size: 14px;
+        height: auto;
+        font-weight: normal;
+        letter-spacing: normal;
+
+        &:hover,
+        &:focus {
+            border: 2px solid #7ed686;
+            background: #7ed686;
+            color: #000;
+        }
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    p {
+        margin-top: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+.snake-try-again-dialog,
+.snake-win-dialog {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .snake-dialog {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .snake-dialog {
+        font-size: 28px;
+
+        button {
+            font-size: 28px;
+            padding: 1rem 2rem;
+        }
+    }
+}

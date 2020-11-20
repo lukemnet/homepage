@@ -1,0 +1,33 @@
+---
+layout: page
+title: Services
+slug: services
+permalink: /services/
+---
+
+<div class="row">
+  <div class="column">
+    <div class="row">
+      <div class="column">
+        <p>A decade of experience in web development. Technical expertise across different business domains and diverse technology stacks. Right solutions at the right time to help you deliver outstanding digital products.</p>
+        <p>Oh, and an odd sentiment towards vintage robots.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column slideInFromLeft">
+        <ul class="services">
+        {%- for item in collections.services|sortByOrder -%}
+          <li>
+            <a href="{{ item.data.permalink }}">
+              {{ item.data.title }}
+            </a>
+          </li>
+        {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="column column-33 slideInFromRight">
+    <img src="/images/smartphone.jpg" alt="" />
+  </div>
+</div>

@@ -1,0 +1,6 @@
+{% set js %}
+{% include "scripts/scripts.js" %}
+{% endset %}
+<script src="/js/vendors/konami.min.js"></script>
+<script src="/js/vendors/snake.min.js"></script>
+<script>{{ js | jsmin | safe }}</script>
