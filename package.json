@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/lukemnet/homepage#readme",
   "devDependencies": {
-    "@11ty/eleventy": "0.11.0",
+    "@11ty/eleventy": "0.11.1",
     "@11ty/eleventy-navigation": "0.1.6",
     "clean-css": "4.2.3",
     "eleventy-plugin-sass": "1.1.1",
     "html-minifier": "4.0.0",
-    "markdown-it": "12.0.1",
-    "terser": "5.3.7"
+    "markdown-it": "12.0.2",
+    "terser": "5.5.0"
   }
 }
