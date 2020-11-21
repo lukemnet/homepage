@@ -1,5 +1,6 @@
 environment:
-  - nodejs_version: 'lts'
+  matrix:
+    - nodejs_version: 'lts'
 
 platform: x64
 
