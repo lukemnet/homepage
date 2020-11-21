@@ -36,3 +36,10 @@
 .slideInFromRight {
   animation: .3s ease-in 0s 1 slideInFromRight;
 }
+
+@media (prefers-reduced-motion) {
+  .slideInFromLeft,
+  .slideInFromRight {
+    animation: none;
+  }
+}
