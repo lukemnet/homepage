@@ -199,3 +199,11 @@ body.index a.logo.activated .name {
     box-shadow: none;
   }
 }
+
+
+@media (prefers-reduced-motion) {
+  .header .logo,
+  .header .logo .name {
+    transition: none;
+  }
+}

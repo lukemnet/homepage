@@ -87,6 +87,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .row .column.column-offset-10 {
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 760px) {
   .services li {
     width: 49%;
