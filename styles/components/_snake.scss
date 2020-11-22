@@ -7,6 +7,13 @@
     font-display: swap;
 }
 
+body.page-snake {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    overscroll-behavior: none;
+}
 
 #gameArea {
     padding: 0px;
@@ -14,6 +21,7 @@
     height: 100vh !important;
     overflow: hidden;
     user-select: none;
+    overscroll-behavior: none;
 
     &:focus {
         outline: none;
