@@ -17,6 +17,7 @@
       boardContainer: "gameArea",
       fullScreen: true,
     });
+    document.getElementsByTagName('body')[0].classList.add('page-snake');
   }
 
   const snake = () => {
