@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if title %}{{ title }} - {% endif %}Lukem.net</title>
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="preload" href="/fonts/Staatliches-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/NokiaCellphoneFC-Small.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="style" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/fonts.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/styles/fonts.css" /></noscript>
     <link rel="stylesheet" href='/styles/main.css'>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -14,7 +19,7 @@
     <meta name="msapplication-TileColor" content="#005182">
     <meta name="theme-color" content="#ffffff">
     <meta name="mobile-web-app-capable" content="yes">
-    {% include "meta/seo.njk" %}    
+    {% include "meta/seo.njk" %}
   </head>
   <body class="{{ type or 'index' }} page-{{ slug }}">
     <div class="wrapper">
