@@ -12,6 +12,7 @@
     animation: .3s ease-in 0s 1 slideInFromLeft;
 
     video {
+      display: block;
       opacity: 0;
       z-index: -1;
       transition: opacity .8s;
