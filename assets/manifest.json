@@ -5,7 +5,7 @@
     "scope": "/",
     "start_url": "https://www.lukem.net",
     "app_name": "Lukem.net",
-    "short_name": "LM",
+    "short_name": "Lukem.net",
     "icons": [
         {
             "src": "/icon-192x192.png",
