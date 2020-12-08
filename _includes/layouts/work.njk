@@ -11,8 +11,15 @@ type: subpage
 {% endif %}
   <div class="column {% if imagecount %}column-50{% endif %} slideInFromRight">
     {{ content|safe }}
+    {% if viewUrl or githubUrl %}
+    <p class="viewBtn">
     {% if viewUrl %}
-    <p class="viewBtn"><a href="{{ viewUrl}}" class="btn">View the project</a></p>
+      <a href="{{ viewUrl }}" class="btn">View the project</a>
+    {% endif %}
+    {% if githubUrl %}
+      <a href="{{ githubUrl }}" class="btn">GitHub page</a>
+    {% endif %}
+    </p>
     {% endif %}
     {% if services %}
     <div class="service_list">
