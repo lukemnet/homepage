@@ -1,11 +1,6 @@
-# These rules will change if you change your site’s custom domains or HTTPS settings
-
-# Redirect domain aliases to primary domain
 https://lukem.eu/* https://www.lukem.net/:splat 301!
 https://www.lukem.eu/* https://www.lukem.net/:splat 301!
-
-# Optional: Redirect default Netlify subdomain to primary domain
 https://lukemnet.netlify.com/* https://www.lukem.net/:splat 301!
-
+/sc2pte   /work/starcraft2-twitch-extension/ 
 /kontakt  /contact
 /info     /contact
