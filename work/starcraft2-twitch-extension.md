@@ -23,6 +23,6 @@ githubUrl: https://github.com/sc2pte
 order: 2
 ---
 
-We deliver bragging rights to players of a popular competitive strategy video game StarCraft II on one of the most popular video streaming services worldwide. Used by hundreds of broadcasters daily, the application utilizes game data APIs provided by Blizzard to present nearly real-time detailed seasonal statistics on broadcaster channel pages.
+Since 2018 we deliver bragging rights to players of a popular competitive strategy video game StarCraft II on one of the most popular video streaming services worldwide. Used by hundreds of broadcasters daily, the application utilizes game data APIs provided by Blizzard to present nearly real-time detailed seasonal statistics on broadcaster channel pages.
 
 Not endorsed or affiliated in any way with Twitch<span>.</span>tv or Blizzard Entertainment.
