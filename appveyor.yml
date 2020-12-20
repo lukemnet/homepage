@@ -1,16 +1,9 @@
-environment:
-  matrix:
-    - nodejs_version: 'lts'
-
+image: Ubuntu2004
 platform: x64
+stack: node lts/*
 
 install:
-  - ps: Install-Product node $env:nodejs_version
   - npm install
 
-test_script:
-  - node --version
-  - npm --version
+build_script:
   - npm run build
-
-build: off
