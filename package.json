@@ -28,7 +28,7 @@
     "clean-css": "4.2.3",
     "eleventy-plugin-sass": "1.1.1",
     "html-minifier": "4.0.0",
-    "markdown-it": "12.0.2",
+    "markdown-it": "12.0.4",
     "terser": "5.5.1"
   }
 }
