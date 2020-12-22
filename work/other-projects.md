@@ -13,7 +13,7 @@ tech:
   - JQuery
   - WordPress
   - Python
-imagecount: 5
+imagecount: 4
 order: 5
 ---
 
