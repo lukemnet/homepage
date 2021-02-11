@@ -3,4 +3,4 @@
 
 My [business homepage](https://www.lukem.net) - static site built with [11ty](https://www.11ty.dev/).
 
-© 2020 Łukasz Wójcik
+© 2007-2021 [Łukasz Wójcik](https://www.lukaszwojcik.net/)
