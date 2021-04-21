@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/lukemnet/homepage#readme",
   "devDependencies": {
-    "@11ty/eleventy": "0.12.0",
+    "@11ty/eleventy": "0.12.1",
     "@11ty/eleventy-navigation": "0.1.6",
     "clean-css": "4.2.3",
     "eleventy-plugin-sass": "1.2.0",
