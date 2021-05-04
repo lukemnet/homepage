@@ -1,0 +1,29 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://www.lukem.net/</loc>
+</url>
+<url>
+  <loc>https://www.lukem.net/about/</loc>
+</url>
+<url>
+  <loc>https://www.lukem.net/contact/</loc>
+</url>
+<url>
+  <loc>https://www.lukem.net/work/</loc>
+</url>
+{%- for page in collections.work %}
+<url>
+  <loc>https://www.lukem.net{{ page.url }}</loc>
+</url>
+{%- endfor %}
+{%- for page in collections.services %}
+<url>
+  <loc>https://www.lukem.net{{ page.url }}</loc>
+</url>
+{%- endfor %}
+</urlset>
